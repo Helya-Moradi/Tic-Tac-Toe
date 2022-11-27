@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <h1 class="header">Tic Tac Toe</h1>
+        <div class="gameModeContainer">
+            <h2>Play Versus</h2>
+            <div class="playVersus">
+                <button class="playVersusBtn" id="computer">Computer</button>
+                <button class="playVersusBtn" id="friend">Friend</button>
+            </div>
+            <h2>Symbol</h2>
+            <div class="symbol">
+                <button class="symbolBtn" id="x">X</button>
+                <button class="symbolBtn" id="o">O</button>
+            </div>
+            <button class="playBtn">Play</button>
+        </div>
+        <div class="gameContainer">
+            <div class="cellContainer">
+                <div class="cell cell-0" id="0"></div>
+                <div class="cell" id="1"></div>
+                <div class="cell cell-2" id="2"></div>
+                <div class="cell" id="3"></div>
+                <div class="cell" id="4"></div>
+                <div class="cell" id="5"></div>
+                <div class="cell cell-6" id="6"></div>
+                <div class="cell" id="7"></div>
+                <div class="cell cell-8" id="8"></div>
+            </div>
+            <div class="statusText"></div>
+            <button class="restartBtn">Restart</button>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
